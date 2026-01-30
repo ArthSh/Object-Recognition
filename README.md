@@ -18,9 +18,15 @@ Using the DeepSORT algorithm, I integrated temporal tracking to assign unique ID
 # Repository Structure
 The project is organized into five modular folders to represent the different stages of the machine learning pipeline:
 
-data_setup/: Contains scripts to convert the MOT17 dataset into YOLO-compatible normalized tensors.
-models/: Includes the training configurations and layer-freezing strategies used for the YOLOv5 detector.
+data_setup/: 
+Contains scripts to convert the MOT17 dataset into YOLO-compatible normalized tensors.
+
+models/: 
+Includes the training configurations and layer-freezing strategies used for the YOLOv5 detector.
+
 weights/: Stores the best.pt model weights (the learned parameters for detection).
+
 tracking/: Contains the Week 4 implementation of the DeepSORT tracker and trajectory-based anomaly logic.
+
 notebooks/: Provides a comprehensive Jupyter/Colab walkthrough for testing the final pipeline.
 
